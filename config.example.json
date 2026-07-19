@@ -1,0 +1,42 @@
+{
+  "server": {
+    "manifest_url": "https://your-server.example.com/api/resolume/media-manifest",
+    "auth_token": "",
+    "timeout_seconds": 30,
+    "verify_tls": true
+  },
+  "local": {
+    "media_root": "C:\\ResolumeMedia",
+    "temp_root": "C:\\ResolumeMedia\\.agent_tmp",
+    "log_file": "C:\\CompanionAgent\\logs\\resolume_media_agent.log",
+    "delete_removed": false,
+    "max_file_size_mb": 4096,
+    "allowed_extensions": [
+      ".3gp",
+      ".aif",
+      ".aiff",
+      ".avi",
+      ".bmp",
+      ".gif",
+      ".jpeg",
+      ".jpg",
+      ".m4a",
+      ".m4v",
+      ".mkv",
+      ".mov",
+      ".mp3",
+      ".mp4",
+      ".mpeg",
+      ".mpg",
+      ".png",
+      ".tif",
+      ".tiff",
+      ".wav",
+      ".webm",
+      ".wmv"
+    ]
+  },
+  "sync": {
+    "poll_interval_seconds": 30
+  }
+}

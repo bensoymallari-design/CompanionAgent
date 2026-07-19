@@ -1,0 +1,14 @@
+{
+  "files": [
+    {
+      "path": "images/logo.png",
+      "url": "https://your-server.example.com/media/images/logo.png",
+      "sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+      "size": 123456
+    },
+    {
+      "path": "videos/intro.mp4",
+      "url": "/media/videos/intro.mp4"
+    }
+  ]
+}
